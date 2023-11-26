@@ -1,0 +1,64 @@
+﻿
+.ModalPopupBG
+{
+	background-color: #bfcbd6;
+	filter: alpha(opacity=50);
+	opacity: 0.8;
+}
+
+.popup_Container {
+	background-color:White;
+	border:2px solid #000000;
+	padding: 0px 0px 0px 0px;
+}
+
+.popupConfirmation
+{
+	width: 300px;
+	height: 200px;
+}
+
+.popup_Titlebar {
+	background-color:#465c71;
+	height: 29px;
+}
+
+.popup_Body
+{
+	padding:15px 15px 15px 15px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+	line-height:15pt;
+	clear:both;
+	padding:20px;
+}
+
+.TitlebarLeft 
+{
+	float:left;
+	padding-left:5px;
+	padding-top:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#FFFFFF;
+}
+.TitlebarRight 
+{
+	background:url(Images/cross_icon_normal.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:15px;
+	width:16px;
+	float:right;
+	cursor:pointer;
+	margin-right:5px;
+	margin-top:5px;
+}
+
+.popup_Buttons
+{
+	margin:10px;
+}

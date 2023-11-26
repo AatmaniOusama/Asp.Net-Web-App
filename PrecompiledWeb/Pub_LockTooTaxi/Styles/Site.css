@@ -1,0 +1,436 @@
+﻿
+/* DEFAULTS
+----------------------------------------------------------*/
+
+ .modalBackground
+    {
+        background-color: Black;
+        /*filter: alpha(opacity=80);
+        opacity: 0.8;*/
+        z-index: 10000;
+    }
+    
+body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color:#4e5766; /*#1d60ff;*/
+    text-decoration: none;
+
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: auto;
+    height:auto;
+    background-color: #fff;
+    margin:  auto auto auto auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background:#f1f5f6; /*#4b6c9e;*/
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    height: 100vh;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+   
+}
+
+.footer
+{
+
+    text-align: center;
+   
+}
+
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+
+
+.menu
+{
+    padding: 4px 0px 31px 8px;
+     background-color:#3a4f63;
+    width:100%;
+    clear: both;
+}
+
+.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+
+
+.menu ul li a, .menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    
+    -webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+
+.menu ul li a:active
+{
+    background-color: #000000;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+.menu ul li a.selected
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+
+
+ul#submenu1, ul#submenu2 , ul#submenu3, ul#submenu4{
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu1,li:hover ul#submenu2,li:hover ul#submenu3,li:hover ul#submenu4 {
+	
+	opacity: 1;
+	top: 27px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+  
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+#submenu1 li,#submenu2 li,#submenu3 li,#submenu4 li{
+	float: none;
+	width: 100%;
+}
+#submenu1 a:hover,#submenu2  a:hover,#submenu3  a:hover,#submenu4  a:hover {
+	
+	background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+#submenu1 a,#submenu2 a,#submenu3 a,#submenu4 a {
+	background-color: #465c71;
+}
+
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 39%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: #3a4f63;
+}
+
+.loginDisplay a:link
+{
+    color: #3a4f63;
+}
+
+.loginDisplay a:visited
+{
+    color: #3a4f63;
+}
+
+.loginDisplay a:hover
+{
+    color: #3a4f63;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Figer Colonnes de Table*/
+
+ td.locked, th.locked {
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+background-color: navy;
+color: white;
+border-right: 1px solid silver;
+position:relative;
+cursor: default;
+}
+
+/*---------------------------------------------------------*/
+ .button
+           {
+                 
+          
+            border-radius: 5px;
+            padding: 3px;           
+          
+           }
+ 
+   .button:focus 
+       {
+        border-radius: 5px;
+        border: 0px solid #07c;
+        box-shadow: 0 0 5px #07c;
+        outline: none;
+}  
+
+ .button:hover  
+       {
+        border-radius: 5px;
+        border: 0px solid #07c;
+        box-shadow: 0 0 5px #07c;
+        outline: none;
+} 
+
+  text
+           {
+                 
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 3px;           
+          
+           }
+ 
+       .text:focus 
+       {
+           border-radius: 5px;
+        border: 1px solid #07c;
+        box-shadow: 0 0 5px #07c;
+        outline: none;
+}
+
+.text:Hover 
+       {
+           border-radius: 5px;
+        border: 1px solid #07c;
+        box-shadow: 0 0 5px #07c;
+        outline: none;
+}
+
+/* space between 2 button*/
+
+.divider{
+    width:70px;
+    height:auto;
+    display:inline-block;
+}

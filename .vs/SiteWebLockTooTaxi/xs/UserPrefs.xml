@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataLockTooTaxi/Class/TypeTaxi.cs">
+    <Files>
+      <File FileName="DataLockTooTaxi/Class/Agrement.cs" />
+      <File FileName="DataLockTooTaxi/MyDataSet.Designer.cs" Line="18683" Column="30" />
+      <File FileName="DataLockTooTaxi/Class/Motif.cs" Line="45" Column="16" />
+      <File FileName="DataLockTooTaxi/Class/Lecteur.cs" />
+      <File FileName="DataLockTooTaxi/Class/Listes.cs" />
+      <File FileName="DataLockTooTaxi/Class/Events.cs" Line="186" Column="17" />
+      <File FileName="DataLockTooTaxi/Class/TypeTaxi.cs" Line="15" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="SiteWebLockTooTaxi" expanded="True">
+            <Node name="DataLockTooTaxi" expanded="True">
+              <Node name="DataLockTooTaxi" expanded="True">
+                <Node name="DataLockTooTaxi.TypeTaxi" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

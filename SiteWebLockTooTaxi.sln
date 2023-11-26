@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SiteWebLockTooTaxi", "SiteWebLockTooTaxi\", "{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}|DataLockTooTaxi.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SiteWebLockTooTaxi"
+		Debug.AspNetCompiler.PhysicalPath = "SiteWebLockTooTaxi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SiteWebLockTooTaxi\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SiteWebLockTooTaxi"
+		Release.AspNetCompiler.PhysicalPath = "SiteWebLockTooTaxi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SiteWebLockTooTaxi\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "39812"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLockTooTaxi", "DataLockTooTaxi\DataLockTooTaxi.csproj", "{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{083830B5-26CA-4E31-8B3A-3D3F2ED6761E}"
+	ProjectSection(SolutionItems) = preProject
+		Grant.sql = Grant.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Itanium = Debug|Itanium
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Itanium = Release|Itanium
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|Itanium.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|x64.Build.0 = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Debug|x86.Build.0 = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Release|Itanium.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Release|x64.ActiveCfg = Debug|Any CPU
+		{F74BAD5C-61A4-44CB-84D7-8AB60FD33ECC}.Release|x86.ActiveCfg = Debug|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|Any CPU.Build.0 = Debug|x86
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|Itanium.Build.0 = Debug|Itanium
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|x64.Build.0 = Debug|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|Itanium.ActiveCfg = Release|Itanium
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|Itanium.Build.0 = Release|Itanium
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|x64.ActiveCfg = Release|x64
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|x64.Build.0 = Release|x64
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|x86.ActiveCfg = Release|x86
+		{D6B72951-7301-4E1A-B5B8-199C9C5DDDD8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
